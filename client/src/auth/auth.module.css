@@ -1,0 +1,17 @@
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.button-right {
+    margin-right: 30px !important;
+}
+
+.button-left {
+    margin-left: 30px !important;
+}
+
+.card {
+    padding-bottom: 30px;
+}

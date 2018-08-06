@@ -1,0 +1,16 @@
+.upload-container__file {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+}
+
+.upload-container {
+    padding: 100px 50px
+}
+
+.verify-button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+}

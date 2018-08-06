@@ -1,0 +1,71 @@
+{
+  "name": "convert",
+  "description": "",
+  "version": "0.0.0",
+  "homepage": "https://github.com/johnquiwa/coverter-api#readme",
+  "main": "src",
+  "keywords": [],
+  "author": "",
+  "contributors": [],
+  "directories": {
+    "lib": "src",
+    "test": "test/"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 3.0.0"
+  },
+  "scripts": {
+    "test": "npm run eslint && npm run mocha",
+    "eslint": "eslint src/. test/. --config .eslintrc.json",
+    "start": "nodemon src/",
+    "mocha": "mocha test/ --recursive"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.0",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.17.2",
+    "compression": "^1.7.3",
+    "connect-mongo": "^2.0.1",
+    "connect-session-sequelize": "^5.2.2",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "helmet": "^3.8.1",
+    "js-sha3": "^0.8.0",
+    "localstorage-memory": "^1.0.2",
+    "lodash": "^4.17.5",
+    "moment": "^2.18.1",
+    "mongodb": "^2.2.31",
+    "mongoose": "^5.0.10",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0",
+    "passport-facebook": "^2.1.1",
+    "passport-google": "^0.3.0",
+    "passport-google-oauth": "^1.0.0",
+    "passport-local": "^1.0.0",
+    "pg": "^7.4.3",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.38.0",
+    "serve-favicon": "^2.4.3",
+    "session": "^0.1.0",
+    "superagent": "^3.8.2",
+    "typeface-roboto": "0.0.54",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.4.1",
+    "mocha": "^3.5.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnquiwa/converter.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnquiwa/converter/issues"
+  }
+}

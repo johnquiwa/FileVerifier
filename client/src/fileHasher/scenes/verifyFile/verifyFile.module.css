@@ -1,0 +1,25 @@
+.image {
+    width: 200px;
+    height: 200px;
+}
+
+.result-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-true {
+    color: mediumseagreen;
+}
+
+.text-false {
+    color: indianred;
+}

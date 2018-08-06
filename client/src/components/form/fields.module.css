@@ -1,0 +1,16 @@
+.text-field {
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(132, 70, 232);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+
+.text-field-container {
+    padding: 0 30px;
+}
