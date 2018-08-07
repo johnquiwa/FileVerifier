@@ -10,7 +10,6 @@ function createUserLocal(userInfo) {
     data: JSON.stringify(userInfo)
   })
     .then((res) => {
-      console.log(res);
       return res.data;
     })
     .catch((e) => {
@@ -43,9 +42,9 @@ function getSession() {
       'Content-Type': 'application/json'
     },
     withCredentials: true,
+    credentials: 'include'
   })
     .then((res) => {
-      console.log(res.data);
       return res.data;
     })
     .catch((e) => {

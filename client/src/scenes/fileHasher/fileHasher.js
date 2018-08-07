@@ -1,12 +1,16 @@
 import React from 'react';
+
+// Components
 import AppBar from '@material-ui/core/AppBar';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
-import styles from './filesHasher.module.css';
 import UserUploads from './scenes/userUploads/userUploads';
 import VerifyFileForm from './scenes/verifyFile/verifyFile';
 import NewUpload from './scenes/newUpload/newUpload';
+
+// Styles
+import styles from './filesHasher.module.css';
 
 function TabContainer(props) {
   return (
@@ -30,7 +34,6 @@ class FileHasher extends React.Component  {
   };
 
   render() {
-    console.log(this.state);
     const { value } = this.state;
     return (
       <div>

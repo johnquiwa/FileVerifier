@@ -52,10 +52,7 @@ class VerifyFileForm extends React.Component {
     const convertToBuffer = async(reader, file) => {
       const buffer = await Buffer.from(reader.result);
       const fileHash = convertBufferToHash(buffer);
-      console.log(fileHash);
-      console.log(file.name);
       this.setState({buffer, fileHash, fileName: file.name});
-      console.log(this.state);
     };
 
     return (
@@ -118,14 +115,12 @@ class VerifyFileForm extends React.Component {
   }
 
   renderResponse(result) {
-    console.log(result);
     return result ?
       this.renderTrue() :
       this.renderFalse()
   }
 
   render () {
-    console.log(this.state);
     return (
       <div>
         { this.state.showResult ?
