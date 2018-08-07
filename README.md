@@ -1,7 +1,7 @@
 # FileVerifier
 
 ## To Run Server
-*`npm install`
+* `npm install`
 * `cd server`
 * `node src/app`
 
