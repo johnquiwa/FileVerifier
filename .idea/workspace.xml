@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="398c84e1-de67-4172-98b9-e20c8e7e9a61" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/client/src/scenes/fileHasher/fileHasherContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/scenes/fileHasher/fileHasherContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,18 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="UploadButton.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/scenes/fileHasher/scenes/components/UploadButton.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="components.module.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/scenes/fileHasher/scenes/components/components.module.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -96,7 +84,7 @@
       <file leaf-file-name="fileHasher.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/scenes/fileHasher/fileHasher.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="66">
               <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
               <folding>
                 <element signature="e#42#88#0" expanded="true" />
@@ -105,7 +93,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fileHasherContainer.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
+              <folding>
+                <element signature="e#84#140#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fileHasherContainer.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/scenes/fileHasher/fileHasherContainer.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
@@ -194,12 +194,12 @@
         <option value="$PROJECT_DIR$/client/src/scenes/fileHasher/scenes/newUpload/newUpload.js" />
         <option value="$PROJECT_DIR$/client/src/ducks/auth.js" />
         <option value="$PROJECT_DIR$/client/src/ensureLoggedIn/ensureLoggedInContainer.js" />
-        <option value="$PROJECT_DIR$/client/src/App.js" />
         <option value="$PROJECT_DIR$/client/src/scenes/fileHasher/scenes/userUploads/userUploads.js" />
         <option value="$PROJECT_DIR$/client/src/scenes/fileHasher/scenes/verifyFile/verifyFile.js" />
         <option value="$PROJECT_DIR$/client/src/api/users.js" />
         <option value="$PROJECT_DIR$/client/src/scenes/fileHasher/fileHasher.js" />
         <option value="$PROJECT_DIR$/client/src/scenes/fileHasher/fileHasherContainer.js" />
+        <option value="$PROJECT_DIR$/client/src/App.js" />
       </list>
     </option>
   </component>
@@ -348,9 +348,9 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info id="npm" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32969698" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32969698" />
       <window_info anchor="bottom" id="TypeScript" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32935324" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -664,16 +664,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="69" selection-start-line="19" selection-start-column="69" selection-end-line="19" selection-end-column="69" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/scenes/fileHasher/scenes/newUpload/newUpload.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
@@ -762,9 +752,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/scenes/fileHasher/fileHasherContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/scenes/fileHasher/fileHasher.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="66">
           <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
           <folding>
             <element signature="e#42#88#0" expanded="true" />
@@ -772,12 +772,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/scenes/fileHasher/fileHasherContainer.js">
+    <entry file="file://$PROJECT_DIR$/client/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        <state>
+          <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
           <folding>
-            <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#84#140#0" expanded="true" />
           </folding>
         </state>
       </provider>

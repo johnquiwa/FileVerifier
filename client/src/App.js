@@ -1,9 +1,13 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
+
+// Components
 import AuthContainer from './scenes/auth/authContainer';
 import FileHasher from './scenes/fileHasher/fileHasherContainer';
 import { ensureLoggedIn } from './ensureLoggedIn/ensureLoggedInContainer';
 import NavBar from './components/nav/navContainer.js';
+
+// Styles
 import styles from './App.module.css'
 
 const App = () => (
