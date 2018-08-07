@@ -18,5 +18,8 @@
 * `npm install`
 * `npm start`
 
+## Next Steps
+* We can utilize the Ethereum blockchain to store a mapping of these hashes to users to prevent a single point of failure
+
 ## TODOS
 * Implement unit tests
