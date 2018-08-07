@@ -1,13 +1,19 @@
 import React from 'react';
+
+// Components
 import CaptureFileInput from '../components/CaptureFileInput.js';
 import UploadButton from '../components/UploadButton.js'
+import Divider from '@material-ui/core/Divider';
+import Button from '@material-ui/core/Button';
+
+//Styles
 import styles from '../components/components.module.css';
 import newUploadStyles from './newUpload.module.css';
 import 'typeface-roboto';
-import Divider from '@material-ui/core/Divider';
-import Button from '@material-ui/core/Button';
-import {captureFile, convertBufferToHash} from '../../../utils';
-import api from '../../../api';
+
+//Utils
+import {captureFile, convertBufferToHash} from '../../../../utils';
+import api from '../../../../api/index';
 
 const filesApi = api.filesApi;
 

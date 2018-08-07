@@ -4,6 +4,7 @@ import { push } from 'react-router-redux';
 
 const usersApi = api.usersApi;
 
+// Actions
 const LOGIN_USER_SUCCESS  = 'LOGIN_USER_SUCCESS';
 const CREATE_USER_SUCCESS = 'CREATE_USER_SUCCESS';
 const CREATING_USER       = 'CREATING_USER';
@@ -13,6 +14,8 @@ const initialState = {
   email: '',
 };
 
+
+// Reducer
 export default (state = initialState, action) => {
   switch (action.type) {
     case CREATING_USER:
@@ -31,6 +34,7 @@ export default (state = initialState, action) => {
   }
 };
 
+// Action Creators
 export function createUserSuccess(user) {
   return {type: CREATE_USER_SUCCESS, user};
 }

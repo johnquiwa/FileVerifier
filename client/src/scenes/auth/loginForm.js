@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Field, reduxForm } from 'redux-form';
-import formFields from './../components/form/fields';
-import asyncValidate from './../components/form/asyncValidate';
-import validate from './../components/form/validate';
+import formFields from '../../components/form/fields';
+import asyncValidate from '../../components/form/asyncValidate';
+import validate from '../../components/form/validate';
 import Button from '@material-ui/core/Button';
 import styles from './auth.module.css';
 

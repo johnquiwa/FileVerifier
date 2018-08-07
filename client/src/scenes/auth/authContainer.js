@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import { createUser, loginLocal } from './../ducks/auth';
+import { createUser, loginLocal } from '../../ducks/auth';
 import { bindActionCreators } from 'redux';
 import Auth from './auth';
 

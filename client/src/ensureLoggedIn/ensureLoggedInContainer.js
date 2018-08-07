@@ -7,9 +7,7 @@ import { push } from 'react-router-redux';
 export function ensureLoggedIn(Component) {
 
   class AuthenticatedComponent extends React.Component {
-
     componentWillMount() {
-      console.log(this.props);
       this.checkAuth();
     }
 
@@ -18,11 +16,9 @@ export function ensureLoggedIn(Component) {
     }
 
     checkAuth() {
-      console.log(this.props);
       if (!this.props.isLoggedIn) {
         return this.props.getSession()
           .then((session) => {
-            console.log(session);
             if(!session) {
               push('/login');
             }
