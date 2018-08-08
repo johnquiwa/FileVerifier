@@ -14,3 +14,8 @@
     justify-content: flex-end;
     margin-top: 50px;
 }
+
+.tab-view {
+    height: 400px;
+    padding: 24px;
+}

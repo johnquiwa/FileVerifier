@@ -8,9 +8,11 @@ const usersApi = api.usersApi;
 const LOGIN_USER_SUCCESS  = 'LOGIN_USER_SUCCESS';
 const CREATE_USER_SUCCESS = 'CREATE_USER_SUCCESS';
 const CREATING_USER       = 'CREATING_USER';
+const SNACKBAR_OPENED     = 'SNACKBAR_OPENED';
 
 const initialState = {
   isLoggedIn: false,
+  userCreated: false,
   email: '',
 };
 
@@ -24,10 +26,13 @@ export default (state = initialState, action) => {
       };
 
     case CREATE_USER_SUCCESS:
-      return assign({}, state, action.user, { isLoggedIn: true });
+      return assign({}, state, action.user, { userCreated: true });
 
     case LOGIN_USER_SUCCESS:
       return assign({}, state, action.user, { isLoggedIn: true });
+
+    case SNACKBAR_OPENED:
+      return assign({}, state, {userCreated: false});
 
     default:
       return state;
@@ -41,6 +46,10 @@ export function createUserSuccess(user) {
 
 export function loginUserSuccess(user) {
   return {type: LOGIN_USER_SUCCESS, user};
+}
+
+export function snackBarOpened() {
+  return { type: SNACKBAR_OPENED }
 }
 
 export function createUser(user) {

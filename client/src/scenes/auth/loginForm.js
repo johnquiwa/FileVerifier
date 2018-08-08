@@ -22,7 +22,7 @@ const LoginForm = props => {
 };
 
 export default reduxForm({
-  form: 'LoginForm', // a unique identifier for this form
+  form: 'LoginForm',
   validate,
   asyncValidate,
 })(LoginForm);

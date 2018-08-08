@@ -2,7 +2,6 @@ import React from 'react';
 import { bindActionCreators } from 'redux';
 import {connect} from 'react-redux';
 import { getSession } from './../ducks/auth';
-import { push } from 'react-router-redux';
 
 export function ensureLoggedIn(Component) {
 
@@ -20,7 +19,7 @@ export function ensureLoggedIn(Component) {
         return this.props.getSession()
           .then((session) => {
             if(!session) {
-              push('/login');
+              this.props.history.push('/login');
             }
           });
       }
